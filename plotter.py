@@ -17,4 +17,4 @@ class Plotter:
         df = pd.DataFrame({"date": dates, "temp": temps})
         df["temp_smooth"] = df["temp"].rolling(window=days_window_average*24, center=True).mean()
         plt.plot(df["date"], df["temp_smooth"], label=year)
-        print(f"Plotting done for year {year}")
+        #print(f"Plotting done for year {year}")
