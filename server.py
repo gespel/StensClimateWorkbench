@@ -35,7 +35,7 @@ def start_plotting_process(start, end):
 
 @app.route('/')
 def index():
-    return "<img src='static/plot.svg'>"
+    return "<center><img src='static/plot.svg'></center>"
 
 
 if __name__ == "__main__":
